@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
-# Build and test the site content
+# 构建和测试站点内容
 #
-# Requirement: html-proofer, jekyll
+# 要求：html-proofer, jekyll
 #
-# Usage: See help information
+# 用法：查看帮助信息
 
 set -eu
 

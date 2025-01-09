@@ -1,171 +1,181 @@
-# The Site Configuration
+# 网站配置
 
-# Import the theme
+# 使用的主题
 theme: jekyll-theme-chirpy
 
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
+# 网站语言设置
+# 如果与 _data/locales 文件夹中的文件名相同，布局语言也会改变
+# 否则默认使用英文 'en'
 lang: zh-CN
 
-# Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
+# 时区设置
 timezone: Asia/Shanghai
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
+# SEO标签设置
 # ↓ --------------------------
 
+# 网站标题
 title: CYH's Blog
 
+# 网站副标题
 tagline: 技术分享与学习笔记
 
-description: >- # used by seo meta and the atom feed
+# 网站描述 (用于SEO和RSS)
+description: >- 
   分享技术教程、工具使用、知识总结和项目实践经验，
   专注于AI、编程和数据科学领域。
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
+# 网站URL设置
+# 例如: 'https://username.github.io'，注意不要以 '/' 结尾
 url: "https://cyh616.github.io"
 
+# GitHub设置
 github:
   username: cyh616
 
-twitter:
-  username: twitter_username # change to your Twitter username
+# Twitter设置（如不需要可删除）
+# twitter:
+#   username: twitter_username 
 
+# 社交媒体设置
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
+  # 作者姓名
+  # 将显示为文章的默认作者和页脚的版权所有者
   name: CYH
   email: your-email@example.com
+  # 社交媒体链接
   links:
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/cyh616 # change to your GitHub homepage
-    # Uncomment below to add more social links
+    # 第一个链接作为版权所有者链接
+    # - https://twitter.com/username # 更改为你自己的Twitter主页
+    - https://github.com/cyh616 # 更改为你自己的GitHub主页
+    # Uncomment below to add more social link
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-# Site Verification Settings
+# 网站验证设置（按需配置）
 webmaster_verifications:
-  google: # fill in your Google verification code
-  bing: # fill in your Bing verification code
-  alexa: # fill in your Alexa verification code
-  yandex: # fill in your Yandex verification code
-  baidu: # fill in your Baidu verification code
-  facebook: # fill in your Facebook verification code
+  google:    # Google验证码
+  bing:      # Bing验证码
+  alexa:     # Alexa验证码
+  yandex:    # Yandex验证码
+  baidu:     # 百度验证码
+  facebook:  # Facebook验证码
 
 # ↑ --------------------------
-# The end of `jekyll-seo-tag` settings
+# `jekyll-seo-tag` 设置结束
 
-# Web Analytics Settings
+# 网站分析设置
 analytics:
   google:
-    id: # fill in your Google Analytics ID
+    id: # 填写你的Google Analytics ID
   goatcounter:
-    id: # fill in your GoatCounter ID
+    id: # 填写你的GoatCounter ID
   umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
+    id: # 填写你的Umami ID
+    domain: # 填写你的Umami域名
   matomo:
-    id: # fill in your Matomo ID
-    domain: # fill in your Matomo domain
+    id: # 填写你的Matomo ID
+    domain: # 填写你的Matomo域名
   cloudflare:
-    id: # fill in your Cloudflare Web Analytics token
+    id: # 填写你的Cloudflare Web Analytics token
   fathom:
-    id: # fill in your Fathom Site ID
+    id: # 填写你的Fathom Site ID
 
-# Page views settings
+# 页面浏览量设置
 pageviews:
-  provider: # now only supports 'goatcounter'
+  provider: # 目前只支持 'goatcounter'
 
-# Prefer color scheme setting.
+# 偏好颜色方案设置
+# 
+# 注意：保持为空将默认跟随系统偏好颜色，
+# 并且在侧边栏底部左侧会有一个切换主题的开关
 #
-# Note: Keep empty will follow the system prefer color by default,
-# and there will be a toggle to switch the theme between dark and light
-# on the bottom left of the sidebar.
+# 可用选项：
 #
-# Available options:
+#     light — 使用浅色主题
+#     dark — 使用深色主题
 #
-#     light — Use the light color scheme
-#     dark — Use the dark color scheme
-#
-theme_mode: dark
+theme_mode: 
 
-# The CDN endpoint for media resources.
-# Notice that once it is assigned, the CDN url
-# will be added to all media resources (site avatar, posts' images, audio and video files) paths starting with '/'
+# 媒体资源CDN端点设置
+# 注意：一旦分配，CDN url
+# 将添加到所有媒体资源（站点头像、文章图片、音频和视频文件）路径中，
+# 路径以 '/' 开头
 #
-# e.g. 'https://cdn.com'
+# 例如：'https://cdn.com'
 cdn:
 
-# the avatar on sidebar, support local or CORS resources
+# 侧边栏头像设置，支持本地或CORS资源
 avatar: '/assets/img/avatars/avatar.jpg'
 
-# The URL of the site-wide social preview image used in SEO `og:image` meta tag.
-# It can be overridden by a customized `page.image` in front matter.
-social_preview_image: # string, local or CORS resources
+# 网站社交预览图片设置，用于SEO `og:image` meta标签
+# 可以被front matter中的 `page.image` 覆盖
+social_preview_image: # 字符串，本地或CORS资源
 
-# boolean type, the global switch for TOC in posts.
-toc: true
+# 文章目录设置
+toc: true  # 是否显示文章目录
 
+# 评论系统设置
 comments:
-  # Global switch for the post-comment system. Keeping it empty means disabled.
+  # 全局开关用于文章评论系统。保持为空表示禁用
   provider: # [disqus | utterances | giscus]
-  # The provider options are as follows:
+  # 提供者选项如下：
   disqus:
-    shortname: # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
-  # utterances settings › https://utteranc.es/
+    shortname: # 填写Disqus短名称。 › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
+  # utterances设置 › https://utteranc.es/
   utterances:
     repo: # <gh-username>/<repo>
     issue_term: # < url | pathname | title | ...>
-  # Giscus options › https://giscus.app
+  # Giscus设置 › https://giscus.app
   giscus:
     repo: # <gh-username>/<repo>
     repo_id:
     category:
     category_id:
-    mapping: # optional, default to 'pathname'
-    strict: # optional, default to '0'
-    input_position: # optional, default to 'bottom'
-    lang: # optional, default to the value of `site.lang`
-    reactions_enabled: # optional, default to the value of `1`
+    mapping: # 可选，默认值为 'pathname'
+    strict: # 可选，默认值为 '0'
+    input_position: # 可选，默认值为 'bottom'
+    lang: # 可选，默认值为 `site.lang`
+    reactions_enabled: # 可选，默认值为 `1`
 
-# Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
+# 自托管静态资源，可选 › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
-    # specify the Jekyll environment, empty means both
-    # only works if `assets.self_host.enabled` is 'true'
+    enabled: # 布尔类型，保持为空表示禁用
+    # 指定Jekyll环境，为空表示两者都启用
+    # 只有当 `assets.self_host.enabled` 为 'true' 时才有效
     env: # [development | production]
 
+# PWA功能
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: true # PWA功能（可安装）选项
   cache:
-    enabled: true # The option for PWA offline cache
-    # Paths defined here will be excluded from the PWA cache.
-    # Usually its value is the `baseurl` of another website that
-    # shares the same domain name as the current website.
+    enabled: true # PWA离线缓存选项
+    # 定义在这里的路径将不会被PWA缓存。
+    # 通常其值是另一个网站的 `baseurl`，
+    # 该网站与当前网站共享相同的域名。
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
+# 分页设置
 paginate: 10
 
-# The base URL of your site
+# 网站基础URL
 baseurl: ""
 
-# ------------ The following options are not recommended to be modified ------------------
+# ------------ 以下选项不建议修改 ------------------
 
 kramdown:
-  footnote_backlink: "&#8617;&#xfe0e;"
-  syntax_highlighter: rouge
-  syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
-    css_class: highlight
+  footnote_backlink: "&#8617;&#xfe0e;" # 脚注回链
+  syntax_highlighter: rouge # 语法高亮器
+  syntax_highlighter_opts: # Rouge设置 › https://github.com/jneen/rouge#full-options
+    css_class: highlight # 高亮样式
     # default_lang: console
     span:
       line_numbers: false
     block:
-      line_numbers: true
-      start_line: 1
+      line_numbers: true # 行号
+      start_line: 1 # 开始行
 
 collections:
   tabs:
@@ -174,14 +184,14 @@ collections:
 
 defaults:
   - scope:
-      path: "" # An empty string here means all files in the project
+      path: "" # 空字符串表示项目中的所有文件
       type: posts
     values:
-      layout: post
-      comments: true # Enable comments in posts.
-      toc: true # Display TOC column in posts.
-      # DO NOT modify the following parameter unless you are confident enough
-      # to update the code of all other post links in this project.
+      layout: post      # 使用文章布局
+      comments: true    # 启用评论。
+      toc: true         # 显示目录
+      # 除非你足够自信，否则不要修改以下参数。
+      # 否则需要更新项目中所有文章链接的代码。
       permalink: /posts/:title/
   - scope:
       path: _drafts
@@ -189,7 +199,7 @@ defaults:
       comments: false
   - scope:
       path: ""
-      type: tabs # see `site.collections`
+      type: tabs # 见 `site.collections`
     values:
       layout: page
       permalink: /:title/

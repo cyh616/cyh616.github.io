@@ -1,18 +1,19 @@
-#  The contact options.
+# 默认启用的社交媒体选项
 
-- type: github
-  icon: "fab fa-github"
+- type: github # GitHub链接
+  icon: "fab fa-github" # 图标
 
-- type: twitter
-  icon: "fa-brands fa-x-twitter"
+# - type: twitter
+#   icon: "fa-brands fa-x-twitter"
 
 - type: email
   icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+  noblank: true # 在当前标签页中打开链接
 
 - type: rss
   icon: "fas fa-rss"
   noblank: true
+  
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon

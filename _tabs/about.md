@@ -1,5 +1,5 @@
 ---
-# the default layout is 'page'
+# 默认布局是 'page'
 icon: fas fa-info-circle
 order: 4
 ---

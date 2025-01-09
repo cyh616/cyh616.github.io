@@ -4,13 +4,17 @@ date: 2025-01-08 00:18:00 +0800
 categories: [技术教程, 开发基础]
 tags: [markdown, 写作, 技术文档, 基础工具]
 level: Beginner
-author: cyh616
+author: CYH
 toc: true
 comments: true
 ---
 # Markdown 基本语法教程
 
 ## 前言
+![Markdown Logo](/assets/img/posts/20250108-markdown-guide/markdown-logo.png "Markdown 官方 Logo"){: width="400"}
+
+Markdown 是一种轻量级标记语言，创始人为 John Gruber。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的 HTML 文档。
+
 Markdown 因其简洁的语法和强大的功能，已经成为技术写作和文档创作的首选工具。无论是写博客、技术文档，还是做笔记，掌握 Markdown 都能极大提升你的写作效率。本文将全面介绍 Markdown 的使用方法，从基础语法到高级特性，再到实用工具，带你完整掌握这门标记语言。
 
 ## 目录

@@ -1,43 +1,54 @@
-# Chirpy Starter
+# CYH's Blog
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+这是我的个人技术博客，基于 [Jekyll](https://jekyllrb.com/) 构建，使用 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题。
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## 博客内容
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+主要包含以下内容：
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+- 📚 技术教程 (Technical Tutorials)
+  - 开发基础
+  - 人工智能
+  - 编程语言
+  - 数据科学
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+- 🛠️ 工具分享 (Tools)
+- 📖 知识分享 (Knowledge Sharing)
+- 🔬 项目实践 (Projects)
+- 📝 读书笔记 (Reading Notes)
+- 💡 观点思考 (Thoughts)
+
+## 本地运行
+
+```bash
+# 安装依赖
+bundle install
+
+# 启动本地服务
+bundle exec jekyll serve
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+访问 `http://localhost:4000` 即可看到博客。
 
-## Usage
+## 写作
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+所有文章都在 `_posts` 目录下，按照以下格式命名：
 
-## Contributing
+```
+YYYY-MM-DD-title.md
+```
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+## 许可证
 
-## License
+- 博客内容采用 [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) 许可协议
+- 博客代码采用 [MIT](LICENSE) 许可协议
 
-This work is published under [MIT][mit] License.
+## 联系方式
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+- GitHub: [@cyh616](https://github.com/cyh616)
+- Email: 
+
+## 致谢
+
+- [Jekyll](https://jekyllrb.com/) - 静态网站生成器
+- [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) - 博客主题
