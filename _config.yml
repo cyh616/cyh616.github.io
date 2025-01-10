@@ -15,15 +15,14 @@ timezone: Asia/Shanghai
 # ↓ --------------------------
 
 # 网站标题
-title: CYH's Blog
+title: CYH's Notes  
 
 # 网站副标题
-tagline: 技术分享与学习笔记
+tagline: 个人技术学习笔记  
 
 # 网站描述 (用于SEO和RSS)
 description: >- 
-  分享技术教程、工具使用、知识总结和项目实践经验，
-  专注于AI、编程和数据科学领域。
+  个人技术学习笔记
 
 # 网站URL设置
 # 例如: 'https://username.github.io'，注意不要以 '/' 结尾
@@ -42,7 +41,7 @@ social:
   # 作者姓名
   # 将显示为文章的默认作者和页脚的版权所有者
   name: CYH
-  email: your-email@example.com
+  email: 
   # 社交媒体链接
   links:
     # 第一个链接作为版权所有者链接

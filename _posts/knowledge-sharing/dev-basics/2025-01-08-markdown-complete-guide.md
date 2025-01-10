@@ -3,10 +3,8 @@ title: Markdown 基本语法教程
 date: 2025-01-08 00:18:00 +0800
 categories: [技术教程, 开发基础]
 tags: [markdown, 写作, 技术文档, 基础工具]
-level: Beginner
 author: CYH
 toc: true
-comments: true
 ---
 # Markdown 基本语法教程
 
@@ -267,7 +265,7 @@ ___
    - 自定义预览样式
 
 ## 写在最后
-Markdown的学习曲线相对平缓，但要真正掌握并在日常工作中灵活运用，还需要不断的实践。希望这篇教程能帮助你更好地使用Markdown，提升写作效率。如果你有任何问题或建议，欢迎在评论区留言讨论。
+Markdown的学习曲线相对平缓，但要真正掌握并在日常工作中灵活运用，还需要不断的实践。
 
 ## 参考资料
 1. [GitHub Markdown 指南](https://docs.github.com/cn/github/writing-on-github)
