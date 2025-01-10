@@ -1,4 +1,4 @@
-# CYH's Blog
+# CYH's Notes
 
 这是我的个人技术学习笔记网站，基于 [Jekyll](https://jekyllrb.com/) 构建，使用 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题。
 

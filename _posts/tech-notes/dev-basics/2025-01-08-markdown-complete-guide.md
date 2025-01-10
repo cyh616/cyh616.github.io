@@ -1,12 +1,12 @@
 ---
-title: Markdown 基本语法教程
+title: Markdown 基本语法
 date: 2025-01-08 00:18:00 +0800
-categories: [技术教程, 开发基础]
+categories: [技术笔记, 开发基础]
 tags: [markdown, 写作, 技术文档, 基础工具]
 author: CYH
 toc: true
 ---
-# Markdown 基本语法教程
+# Markdown 基本语法
 
 ## 前言
 ![Markdown Logo](/assets/img/posts/20250108-markdown-guide/markdown-logo.png "Markdown 官方 Logo"){: width="400"}
